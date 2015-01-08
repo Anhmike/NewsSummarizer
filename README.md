@@ -15,8 +15,8 @@ NewsSummarizer is a Python web application that summarizes the text content of a
 
 <h2>Sample Output:</h2>
 Here's a BBC Article about the declining price of oil:
-<a href="http://www.bbc.com/news/business-30049294"><img src= "http://imgur.com/mAbeZm9"></a>
+<a href="http://www.bbc.com/news/business-30049294"><img src= "http://imgur.com/mAbeZm9.png"></a>
 
 Here's a QuickNews summary:
-<img src = "http://imgur.com/uhG4D4T"></li>
+<img src = "http://i.imgur.com/uhG4D4T.png"></li>
 
