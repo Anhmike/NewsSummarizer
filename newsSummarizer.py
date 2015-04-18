@@ -13,10 +13,6 @@ import urllib.request as urllib
 
 import operator
 
-#Current Issues:
-#1) Because I tokenize by splitting on ".", sometimes sentences get cut off e.g St. Lawrence = "...St" "Lawrence"
-#2) BeautifulSoup's extract works pretty well to remove javascript and css but there is still some junk left in the html page.
-
 def web_crawler(userinput):
     url = urllib.urlopen(userinput).read()
     #add exception here for internet connection not avalaible
