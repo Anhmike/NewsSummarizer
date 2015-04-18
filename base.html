@@ -1,0 +1,20 @@
+{% load staticfiles %}
+<html>
+	<head>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <link href="{% static 'style.css' %}" rel="stylesheet" type = "text/css">	
+	<title>Automatic News Summarization</title>
+	</head>
+	<body>
+		<h1>QuickNews</h1>
+		<h2>An automatic news summarization application</h2>
+		<form action= "/search/" method = "get">
+		    <label>Enter a Valid URL: </label>
+			<input type = "text" name="url">
+			<input type = "submit" value= "Summarize">
+		</form>
+		{% block content %}
+		{% endblock %}
+	</body>
+</html>
