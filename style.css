@@ -1,0 +1,24 @@
+h1
+{
+	text-align: center;
+	font-size: 3.5em;
+}
+
+a
+{
+color: inherit;
+}
+
+h2,h3,h4
+{
+    text-align: center;
+}
+p,li
+{
+	font-size: 1.5em;
+}
+body
+{
+    font-family: 'Oswald', sans-serif;
+	background-color: #E4ECF9;
+}
