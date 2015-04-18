@@ -1,0 +1,18 @@
+{% extends "myApp/base.html" %}
+{% block content %}
+{% if errors %}
+<ul>
+    {%for error in errors%}
+    <li style = "color: red"> {{error}} </li>
+	{% endfor %}
+{% endif %}
+<p>
+This is a three sentence summary of :
+{{var1}}
+<ul>
+<li> {{var2}}</li>
+<li> {{var3}}</li>
+<li> {{var4}}</li>
+</p>
+
+{% endblock %}
