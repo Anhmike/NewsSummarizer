@@ -1,7 +1,7 @@
 <h1>NewsSummarizer</h1>
 ==============
 
-NewsSummarizer is a Python web application that summarizes the text content of a webpage.
+NewsSummarizer is a Python web application that summarizes the text content of a webpage. Make sure to check out the wiki for a more in depth explanation
 
 <h2>How It Works</h2>
 
